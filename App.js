@@ -5,7 +5,7 @@ import {
   StyleSheet,
   View,
   Text,
-  TouchableOpacity
+  TouchableOpacity,
 } from 'react-native';
 
 import CounterApp from './src/counter/Counterapp'
@@ -22,6 +22,7 @@ const reducer = ( state = nilaiAwal, action) => {
         return {Nilai : state.Nilai + 1}
         case 'KURANGANGKA' : 
         return{Nilai : state.Nilai - 1}
+        
       }
       return state
 }

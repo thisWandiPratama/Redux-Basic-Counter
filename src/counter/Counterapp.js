@@ -25,6 +25,7 @@ class CounterApp extends React.Component{
               <TouchableOpacity onPress={() => this.props.KurangAngka()}>
               <Text style ={{ fontSize: 20}}> Berkurang </Text>
             </TouchableOpacity>
+
             </View>
           </View>
       )
@@ -44,7 +45,7 @@ class CounterApp extends React.Component{
       }),
       KurangAngka : () => dispatch({
         type:'KURANGANGKA'
-      })
+      }),
     }
   }
   export default connect(mapStateToProps, mapDispatchToProps)(CounterApp)

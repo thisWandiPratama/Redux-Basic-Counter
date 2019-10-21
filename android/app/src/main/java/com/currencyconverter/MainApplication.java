@@ -1,4 +1,4 @@
-package com.currencyconverter;
+package com.todolistredux;
 
 import android.app.Application;
 import android.content.Context;

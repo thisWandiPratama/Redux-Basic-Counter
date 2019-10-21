@@ -1,4 +1,4 @@
-package com.currencyconverter;
+package com.todolistredux;
 
 import com.facebook.react.ReactActivity;
 
